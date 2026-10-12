@@ -60,6 +60,11 @@ double biaya_dasar = berat_tagihan * tarifperKg;
 double biaya_tambahan = 0;
 if (jenis_pelayanan == 2) {
     biaya_tambahan = 0.40 * biaya_dasar;
+}else if (jenis_pelayanan == 1) {
+    biaya_tambahan = 0;
+} else {
+    cout << "Jenis pelayanan tidak valid!" << endl;
+    return 1; // keluar dari program jika jenis pelayanan tidak valid
 }
 
 // Menghitung biaya asuransi jika dipilih
@@ -72,7 +77,7 @@ if (toupper(Pilihan_asuransi) == 'Y') {
 }
 // Menghitung total biaya
 double total_biaya = biaya_dasar + biaya_tambahan + biaya_asuransi;
-cout << "Biaya tambahan " << biaya_dasar << " + Biaya tambahan " << biaya_tambahan << " + Biaya asuransi" << biaya_asuransi << endl;
+cout << "Biaya dasar " << biaya_dasar << " + Biaya tambahan " << biaya_tambahan << " + Biaya asuransi " << biaya_asuransi << endl;
 cout << "Total Biaya: Rp " << total_biaya << endl;
 return 0;
 }
