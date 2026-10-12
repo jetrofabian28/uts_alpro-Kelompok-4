@@ -23,7 +23,7 @@ cin >> nomor_paket;
 cout << "Masukkan Berat Aktual (kg): ";
 cin >> Berat_aktual;
 cout << "Masukkan_dimensi P x L x T (cm): ";
-cin >> panjang >> lebar >> tinggi; 
+cin >> panjang >> lebar >> tinggi ; 
 cout << "Masukkan Zona_Tujuan (A/B/C): ";
 cin >> zona_tujuan;
 cout << "jenis Pelayanan (1. Reguler, 2. Prioritas ): ";
@@ -32,7 +32,7 @@ cout << "Apakah ingin menggunakan asuransi? (Y/N): ";
 cin >> Pilihan_asuransi;
 
 // perhitungan Berat Volumetrik dan Berat Tagihan
-double berat_volumetrik = (panjang * lebar * tinggi) / 5000;
+double berat_volumetrik = (panjang * lebar * tinggi) / 6000;
 
 // Berat tagihan adalah nilai terbesar yang dbulatkan ke atas
 
@@ -71,8 +71,8 @@ if (toupper(Pilihan_asuransi) == 'Y') {
     }
 }
 // Menghitung total biaya
-
 double total_biaya = biaya_dasar + biaya_tambahan + biaya_asuransi;
-
+cout << "Biaya tambahan" << biaya_dasar << " + Biaya tambahan" << biaya_tambahan << " + Biaya asuransi" << biaya_asuransi << endl;
+cout << "Total Biaya: Rp " << total_biaya << endl;
 return 0;
 }
