@@ -72,7 +72,7 @@ if (toupper(Pilihan_asuransi) == 'Y') {
 }
 // Menghitung total biaya
 double total_biaya = biaya_dasar + biaya_tambahan + biaya_asuransi;
-cout << "Biaya tambahan " << biaya_dasar << " + Biaya tambahan" << biaya_tambahan << " + Biaya asuransi" << biaya_asuransi << endl;
+cout << "Biaya tambahan " << biaya_dasar << " + Biaya tambahan " << biaya_tambahan << " + Biaya asuransi" << biaya_asuransi << endl;
 cout << "Total Biaya: Rp " << total_biaya << endl;
 return 0;
 }
