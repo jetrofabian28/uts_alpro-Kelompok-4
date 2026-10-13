@@ -79,9 +79,8 @@ if (toupper(Pilihan_asuransi) == 'Y') {
 double total_biaya = biaya_dasar + biaya_tambahan + biaya_asuransi;
 cout << "Biaya dasar " << biaya_dasar << " + Biaya tambahan " << biaya_tambahan << " + Biaya asuransi " << biaya_asuransi << endl;
 cout << "Total Biaya: Rp " << total_biaya << endl;
-return 0
-cout << "tekan enter  untuk keluar...";
+cout << "tekan Enter untuk keluar....";
+cin.ignore();
 cin.get();
-
 return 0;
 }
