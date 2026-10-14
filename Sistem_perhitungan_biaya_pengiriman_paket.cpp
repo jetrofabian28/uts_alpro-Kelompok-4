@@ -22,8 +22,15 @@ cout << "Masukkan Nomor Paket: ";
 cin >> nomor_paket;
 cout << "Masukkan Berat Aktual (kg): ";
 cin >> Berat_aktual;
-cout << "Masukkan_dimensi P x L x T (cm): ";
-cin >> panjang >> lebar >> tinggi ; 
+cout << "Masukkan Panjang (cm): "; 
+cin >> panjang;
+
+cout << "Masukkan Lebar (cm): "; 
+cin >> lebar;
+
+cout << "Masukkan Tinggi (cm): "; 
+cin >> tinggi;
+
 cout << "Masukkan Zona_Tujuan (A/B/C): ";
 cin >> zona_tujuan;
 cout << "jenis Pelayanan (1. Reguler, 2. Prioritas ): ";
