@@ -42,17 +42,17 @@ $$\text{Total Biaya} = \text{Biaya Dasar} + \text{Biaya Tambahan Pelayanan} + \t
 ## Cara Menjalankan Program
 
 1. Pastikan Anda sudah menginstal compiler C++ (seperti `g++` atau IDE seperti Dev-C++ / Code::Blocks).
-2. Simpan kode program ke dalam file berformat `.cpp`, misalnya `kalkulator_pengiriman.cpp`.
+2. Simpan kode program ke dalam file berformat `.cpp`, misalnya `Sistem_perhitungan_biaya_pengiriman_paket.cpp`.
 3. Kompilasi program melalui terminal/command prompt:
 ```bash
-g++ kalkulator_pengiriman.cpp -o kalkulator_pengiriman
+g++ Sistem_perhitungan_biaya_pengiriman_paket.cpp -o Sistem_perhitungan_biaya_pengiriman_paket
 
 ```
 
 
 4. Jalankan program:
-* **Windows:** `kalkulator_pengiriman.exe`
-* **Linux/macOS:** `./kalkulator_pengiriman`
+* **Windows:** `Sistem_perhitungan_biaya_pengiriman_paket.exe`
+* **Linux/macOS:** `./Sistem_perhitungan_biaya_pengiriman_paket`
 
 
 
